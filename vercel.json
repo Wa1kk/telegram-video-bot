@@ -1,7 +1,8 @@
 {
   "functions": {
     "api/webhook.js": {
-      "maxDuration": 300
+      "maxDuration": 300,
+      "includeFiles": "bin/**,lib/**"
     }
   },
   "rewrites": [
