@@ -8,11 +8,13 @@
     "setup-webhook": "node scripts/setup-webhook.js"
   },
   "dependencies": {
-    "@distube/ytdl-core": "^4.14.4",
     "axios": "^1.14.0",
+    "bgutils-js": "^3.2.0",
     "form-data": "^4.0.0",
+    "jsdom": "^29.0.1",
     "node-fetch": "^2.7.0",
-    "qs": "^6.15.0"
+    "qs": "^6.15.0",
+    "youtubei.js": "^17.0.1"
   },
   "engines": {
     "node": ">=18"
